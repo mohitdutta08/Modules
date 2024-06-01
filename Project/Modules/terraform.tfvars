@@ -59,6 +59,20 @@ modvarvnetprjdevops1 = {
       }
     }
   }
+
+  vnet3 = {
+    vnetname            = "vnetprjdevops3"
+    rgprjdevopsname     = "rgprjdevops"
+    rgprjdevopslocation = "East US"
+    address_space       = ["10.3.0.0/16"]
+
+    subnets = {
+      subnet4 = {
+        subnetname     = "subnetprjdevops4"
+        address_prefix = "10.1.4.0/24"
+      }
+    }
+  }
 }
 
 modvarvmprjdevops = {
